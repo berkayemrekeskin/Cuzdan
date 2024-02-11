@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <TextFlow fx:id="PersonIdentification" layoutX="306.0" layoutY="14.0" prefHeight="80.0" prefWidth="341.0" textAlignment="CENTER" AnchorPane.bottomAnchor="500.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="20.0">
+         <effect>
+            <DropShadow />
+         </effect></TextFlow>
+      <ListView fx:id="MonthlyIncomeTable" layoutX="140.0" layoutY="126.0" prefHeight="285.0" prefWidth="160.0" />
+      <TextFlow fx:id="MonthlyIncomes" layoutX="140.0" layoutY="100.0" prefHeight="26.0" prefWidth="160.0" textAlignment="JUSTIFY" />
+      <ListView fx:id="MonthlyExpenseTable" layoutX="642.0" layoutY="126.0" prefHeight="285.0" prefWidth="160.0" />
+      <TextFlow fx:id="MonthlyExpenses" layoutX="642.0" layoutY="100.0" prefHeight="26.0" prefWidth="160.0" textAlignment="JUSTIFY" />
+   </children>
+</AnchorPane>
